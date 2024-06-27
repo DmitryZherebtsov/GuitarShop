@@ -1,0 +1,43 @@
+
+.select_item{
+    margin: 2em 9em;
+}
+
+.guitar_items {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.item{
+    cursor: pointer;
+    margin-right: 4em;
+}
+
+.item h2{
+    max-width: 11em;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+
+@media (max-width: 800px) {
+    .select_item {
+        margin: 2em 1em; 
+    }
+
+    .guitar_items {
+        flex-direction: column;
+    }
+
+    .item {
+        flex: 1 0 100%; 
+        max-width: 100%; 
+    }
+
+    .item h2 {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,99 @@
+.find-artists {
+    margin-top: 1em;
+}
+
+.find-artists .mb-3 {
+    margin-bottom: 20px;
+}
+
+.caption_artists {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.artist-info p {
+    font-size: 1.4em;
+}
+
+.artist-image {
+    width: 100%;
+    height: auto;
+    max-width: 20em;
+}
+
+.artist-info {
+    text-align: center;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-artists .card {
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.find-artists .card:hover {
+    transform: scale(1.05);
+}
+
+.find-artists .card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.find-artists .card-body {
+    padding: 1rem;
+}
+
+.find-artists .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.find-artists .card-text {
+    color: gray;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .find-artists .card {
+        margin-bottom: 20px;
+    }
+
+    .artist-info {
+        text-align: left;
+    }
+
+    .artist-info p {
+        font-size: 1em;
+    }
+
+    .artist-info .text-center {
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    .artist-info img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .artist-info h2 {
+        font-size: 1.5em;
+    }
+
+    .caption_artists {
+        text-align: center;
+    }
+    .caption_artists p{
+        font-size: 0.7em;
+    }
+    
+}
